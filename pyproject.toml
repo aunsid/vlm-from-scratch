@@ -1,0 +1,16 @@
+[project]
+name = "llms-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "einops>=0.8.2",
+    "matplotlib>=3.11.0",
+    "modal>=1.5.1",
+    "numpy>=2.5.0",
+    "regex>=2026.5.9",
+    "torch>=2.12.1",
+    "wandb>=0.28.0",
+    "weave>=0.52.43",
+]
