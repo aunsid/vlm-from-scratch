@@ -419,7 +419,7 @@ def generate(
 
 
 if __name__ == '__main__':
-    from experiments.pretraining import get_model_config
+    from experiments.pretraining.pretraining import get_model_config
     from src.tokenizer.tokenizer_fast import BPE
     save_bpe_path = "/Users/aun/Documents/assignment1-basics/cs336_basics/weights/TinyStoriesV2-GPT4-train-BPE.json"
     checkpoint_path = '/Users/aun/Documents/llms-from-scratch/data/checkpoint_final_step_16517.pt'
